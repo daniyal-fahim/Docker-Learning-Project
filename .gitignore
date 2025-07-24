@@ -1,0 +1,92 @@
+# ---------------------
+# Node.js and Express
+# ---------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env
+.env.local
+.env.*.local
+
+# Optional cache folders
+.cache/
+dist/
+build/
+tmp/
+temp/
+logs/
+*.log
+
+# Typescript
+*.tsbuildinfo
+
+# PM2 logs
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# ---------------------
+# Docker-related
+# ---------------------
+docker-compose.override.yml
+**/.docker
+**/Dockerfile.*
+**/docker-compose*.yml
+.dockerignore
+
+# Avoid committing volumes/data
+volume-data/
+data/
+db-data/
+*.sqlite
+
+# Ignore docker logs or temporary files
+*.tgz
+*.tar
+*.bak
+*.swp
+
+# If you store your images locally (optional)
+*.img
+*.qcow2
+
+# If you use docker secrets (optional and sensitive)
+secrets/
+*.secret
+
+# ---------------------
+# Testing
+# ---------------------
+coverage/
+.nyc_output/
+test-output/
+jest-report/
+cypress/videos/
+cypress/screenshots/
+
+# ---------------------
+# Misc
+# ---------------------
+*.bak
+*.orig
+*.swp
+*.swo
+*.zip
+*.gz
+*.tgz
+*.log
+*.tmp
