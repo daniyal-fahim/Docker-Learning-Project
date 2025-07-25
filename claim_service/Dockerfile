@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package*.json ./
 # Explicitly install amqplib first
 RUN npm install amqplib --verbose || { echo "Failed to install amqplib"; exit 1; }
-RUN npm install --verbose
+RUN npm install 
 # Debug: Verify amqplib installation
 RUN ls -la /app/node_modules/amqplib || { echo "amqplib not found in node_modules"; exit 1; }
 COPY . .

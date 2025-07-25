@@ -1,1 +1,7 @@
 Received Claim: {"id":1753392232035,"user":"New Daniyal Fahim","amount":"348","status":"MINIO FAILED"}
+Received Claim: {"id":1753462138648,"user":"New Daniyal Fahim checking","amount":"348","status":"MINIO FAILED"}
+Received Claim: {"id":1753462764584,"user":"New Daniyal Fahim checking","amount":"348","status":"MINIO FAILED"}
+Received Claim: {"id":1753462769799,"user":"New Daniyal Fahim checking","amount":"348","status":"MINIO FAILED"}
+Received Claim: {"id":1753462785213,"user":"New Daniyal Fahim checking 1","amount":"348","status":"MINIO FAILED"}
+Received Claim: {"id":1753462794721,"user":"New Daniyal Fahim checking 2","amount":"348","status":"MINIO FAILED"}
+Received Claim: {"id":1753462800528,"user":"New Daniyal Fahim checking 3","amount":"348","status":"MINIO FAILED"}

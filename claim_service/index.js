@@ -34,10 +34,7 @@ app.post("/claim", async (req, res) => {
     channel.sendToQueue(QUEUE, Buffer.from(JSON.stringify(claimData)));
     console.log("✅ Claim sent:", claimData);
 
-    setTimeout(() => {
-        connection.close();
-        process.exit(0);
-    }, 500);
+
     res.status(201).json({ message: "Claim submitted successfully", claim: claimData });
 });
 
